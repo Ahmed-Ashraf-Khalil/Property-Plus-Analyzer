@@ -8,7 +8,8 @@ It uses selenium to get urls and use web scrapping and automation techniques to 
 - [Installation](#installation)
 - [UIs](#UIs)
 
-#installation
+## installation
+
 Be sure to download and update :
 numpy
 pandas
@@ -18,7 +19,8 @@ pyqt5
 matplotlib
 seaborn
 
-# app UIs:
+## app UIs:
+
 1- main page
 
 ![image](https://github.com/Ahmed-Ashraf-Khalil/Property-Plus-Analyzer/assets/59618586/f34d71dd-53bf-4242-bd58-851d1a2883c1)
