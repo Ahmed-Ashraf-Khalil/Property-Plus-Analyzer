@@ -31,3 +31,5 @@ seaborn
 ![image](https://github.com/Ahmed-Ashraf-Khalil/Property-Plus-Analyzer/assets/59618586/69f8d483-1bdf-4190-a312-7ca5c88e4a79)
 
 ## Reports
+
+![image](https://github.com/Ahmed-Ashraf-Khalil/Property-Plus-Analyzer/assets/59618586/46a955d1-accb-45a9-b0b0-2e9599b73521)
