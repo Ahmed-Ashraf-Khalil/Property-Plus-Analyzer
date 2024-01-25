@@ -7,6 +7,7 @@ It uses selenium to get urls and use web scrapping and automation techniques to 
 ## Table of Contents
 - [Installation](#installation)
 - [UIs](#UIs)
+- [Reports](#Reports)
 
 ## installation
 
@@ -19,7 +20,7 @@ pyqt5
 matplotlib
 seaborn
 
-## app UIs:
+## UIs:
 
 1- main page
 
@@ -28,3 +29,5 @@ seaborn
 2- report page
 
 ![image](https://github.com/Ahmed-Ashraf-Khalil/Property-Plus-Analyzer/assets/59618586/69f8d483-1bdf-4190-a312-7ca5c88e4a79)
+
+## Reports
