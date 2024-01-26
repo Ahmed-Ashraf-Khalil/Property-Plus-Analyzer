@@ -11,14 +11,18 @@ It uses selenium to get urls and use web scrapping and automation techniques to 
 
 ## installation
 
-Be sure to download and update :
-numpy
-pandas
-sqlite3
-selenium 
-pyqt5
-matplotlib
-seaborn
+<details closed>
+    <summary>Be sure to download and update : </summary>
+    <ul>
+        <li>numpy</li>
+        <li>pandas</li>
+        <li>sqlite3</li>
+        <li>selenium</li>
+        <li>pyqt5</li>
+        <li>matplotlib</li>
+        <li>seaborn</li>
+    </ul>
+</details>
 
 ## UIs:
 
@@ -36,5 +40,3 @@ seaborn
 
 
 # Thank you 
-
-![2](https://github.com/Ahmed-Ashraf-Khalil/Property-Plus-Analyzer/assets/59618586/b7962fb8-0f64-4731-a8a2-c58ab6e0812c)
