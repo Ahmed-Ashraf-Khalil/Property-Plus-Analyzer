@@ -6,6 +6,7 @@ It uses selenium to get urls and use web scrapping and automation techniques to 
 
 ## Table of Contents
 - [Installation](#installation)
+- [guide](#guide)
 - [UIs](#UIs)
 - [Reports](#Reports)
 
@@ -23,6 +24,14 @@ It uses selenium to get urls and use web scrapping and automation techniques to 
         <li>seaborn</li>
     </ul>
 </details>
+
+## guide
+1- Run backend/app.py
+2- insert number of pages to extract and click Get Data button to get the data.
+3- after getting the data you can click show buy,rent and commertial data to show them in the table widget.
+4- you will have the option to click Analysis Report button to get to the Report page.
+5- you can make report about buy , rent or commertial property data and will be saved in the reports directory.
+
 
 ## UIs:
 
