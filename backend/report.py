@@ -1,21 +1,16 @@
 from database.database import DB
 import pandas as pd
 from PyQt5.uic import loadUi
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem, QApplication, QMessageBox
-from pyqt5_plugins.examplebuttonplugin import QtGui
+from PyQt5.QtWidgets import QMainWindow
 from matplotlib.backends.backend_pdf import PdfPages
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib
-
 
 class report(QMainWindow):
 
     def __init__(self,widget):
         super(report,self).__init__()
 
-        self.widget = widget
 
         #database connection
         self.conn = DB.db_connect()
@@ -23,6 +18,8 @@ class report(QMainWindow):
         dirname = "../uis/report.ui"
 
         loadUi(dirname, self)
+
+        self.widget = widget
 
         self.rep_buy.clicked.connect(self.rep_buy_func)
         self.rep_rent.clicked.connect(self.rep_rent_func)

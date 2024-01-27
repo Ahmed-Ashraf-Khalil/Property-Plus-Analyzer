@@ -1,16 +1,10 @@
-import sys
-from datetime import datetime
 import pandas as pd
 from datetime import date
-from report import report
-from pyqt5_plugins.examplebuttonplugin import QtGui
 from backend import collect
-from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem, QApplication, QMessageBox
+from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem, QMessageBox
 from PyQt5.uic import loadUi
 from database.database import DB
-from PyQt5.QtCore import QTime,QTimer
-from PyQt5 import QtWidgets
-
+from report import report
 
 
 class main(QMainWindow):
@@ -18,7 +12,6 @@ class main(QMainWindow):
     def __init__(self,widget):
         super(main,self).__init__()
 
-        self.widget = widget
 
         #database connection
         self.conn = DB.db_connect()
@@ -27,15 +20,13 @@ class main(QMainWindow):
 
         loadUi(dirname, self)
 
+        self.widget = widget
+
         # set the title
         self.setWindowTitle("Property Pulse Analyzer")
 
         f = open("../database/last_data_edit_time.txt", "r")
 
-        # TODO: adjust the icon
-        self.setWindowIcon(QtGui.QIcon('../resources/icon.png'))
-
-        #TODO: window facts
         self.date.setText(str(date.today()))
         self.addedlastdate.setText(str(f.read()))
 
@@ -57,7 +48,6 @@ class main(QMainWindow):
             self.addedlastdate.setText(str(str(date.today())))
 
         except Exception as e:
-            print(e)
             error_dialog = QMessageBox()
             error_dialog.setWindowTitle("Empty pages section")
             error_dialog.setText("write number of pages in numbers!")

@@ -1,9 +1,7 @@
 import sys
-from PyQt5.QtWidgets import QApplication
-from pyqt5_plugins.examplebutton import QtWidgets
-
 from main import main
-
+from PyQt5.QtWidgets import QApplication
+from PyQt5 import QtWidgets
 
 app = QApplication(sys.argv)
 widget = QtWidgets.QStackedWidget()
